@@ -29,6 +29,16 @@ format:
 
 -   [Hadley Wickham](https://hadley.nz/);
 
+-   `tidy data`:
+
+    ```         
+    1.  Every column is variable.
+
+    2.  Every row is an observation.
+
+    3.  Every cell is a single value.
+    ```
+
 -   Designed for data science;
 
 -   Each package has a common design philosophy, grammar, and data structures.
@@ -113,7 +123,7 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
--   Enhances R\'s functional programming toolkit;
+-   Enhances R's functional programming toolkit;
 
 -   `Lists` and `vectors`;
 
@@ -144,8 +154,6 @@ format:
 -   All functions starts with `str_`;
 
 -   Regular expression (`regex`);
-
--   
 :::
 :::
 
@@ -153,7 +161,13 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
-Left column
+-   Functions to transform into `tidy data` format;
+
+-   `pivot_longer()` and `pivot_wider()`;
+
+-   list-columns with `nest()` and `unnest()`;
+
+-   `separate()` and `separate_rows()`;
 :::
 
 ::: {.column width="50%"}
@@ -169,7 +183,13 @@ Left column
 :::
 
 ::: {.column width="50%"}
-Right column
+-   Data visualization;
+
+-   Based on the `grammar of graphics`;
+
+-   `Bioconductor` packages run ggplot inside;
+
+-   More than `50` extensions;
 :::
 :::
 
@@ -177,10 +197,32 @@ Right column
 
 ::: columns
 ::: {.column width="50%"}
-Left column
+-   Data wrangling;
+
+-   Data manipulation;
+
+-   Five verbs;
+
+-   Joins;
+
+-   SQL syntax;
 :::
 
 ::: {.column width="50%"}
 [![](images/dplyr.png){width="950"}](https://dplyr.tidyverse.org)
 :::
+:::
+
+## Final list
+
+::: nonincremental
+1.  `{dplyr}`
+2.  `{ggplot2}`
+3.  `{tidyr}`
+4.  `{stringr}`
+5.  `{purrr}`
+6.  `{tibble}`
+7.  `{readr}`
+8.  `{forcats}`
+9.  `{lubridate}`
 :::
