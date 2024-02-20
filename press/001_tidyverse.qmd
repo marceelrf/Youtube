@@ -197,15 +197,15 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
--   Data wrangling;
+-   Data `wrangling`;
 
--   Data manipulation;
+-   Data `manipulation`;
 
--   Five verbs;
+-   Five `verbs`;
 
--   Joins;
+-   `Joins`;
 
--   SQL syntax;
+-   `SQL` syntax;
 :::
 
 ::: {.column width="50%"}
